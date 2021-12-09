@@ -1,0 +1,7 @@
+array=list(map(int,input().split()))
+k=int(input())
+array.sort()
+n=len(array)
+array[0]=array[0]+k
+array[n-1]=array[n-1]-k
+print(array[n-1]-array[0])
