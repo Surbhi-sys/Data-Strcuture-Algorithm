@@ -1,0 +1,13 @@
+def msum(array,n):
+    cur=0
+    max=array[0]
+    n=len(array)
+    for i in range(n):
+        cur=cur+array[i]
+        if cur>max:
+            max=cur
+        if cur<0:
+            cur=0
+    return max
+array=list(map(int,input().split()))  
+print(msum(array,len(array)))
