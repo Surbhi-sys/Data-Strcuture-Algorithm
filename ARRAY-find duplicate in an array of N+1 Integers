@@ -1,0 +1,7 @@
+array=list(map(int,input().split()))
+l=[]
+for i in array:
+    if i not in l:
+        l.append(i)
+    else:
+        print(i,end=' ')
