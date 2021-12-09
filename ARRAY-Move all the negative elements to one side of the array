@@ -1,0 +1,11 @@
+array=list(map(int,input().split()))
+a=[]
+b=[]
+n= len(array)
+for i in range(n):
+    if array[i]<0:
+        a.append(array[i])
+    else:
+        b.append(array[i])
+new=a+b
+print(new)
