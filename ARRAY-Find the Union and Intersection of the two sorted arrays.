@@ -1,0 +1,6 @@
+array1=list(map(int,input().split()))
+array2=list(map(int,input().split()))
+l=set(array1).intersection(array2)
+m=set(array1).union(array2)
+print("intersection is : ",l)
+print("union is:",m)
