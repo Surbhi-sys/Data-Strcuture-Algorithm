@@ -1,0 +1,4 @@
+array=list(map(int,input().split()))
+k=int(input())
+array.sort()
+print(array[k-1])
