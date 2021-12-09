@@ -1,0 +1,11 @@
+array=list(map(int,input().split()))
+a=[]
+b=[]
+n= int(input())
+for i in range(n):
+    a.append(array[i])
+k=len(array)
+for i in range(n,k):
+    b.append(array[i])
+new=b+a
+print(new)
